@@ -126,5 +126,17 @@ metrics(x_2, truth = dvote, estimate = pred_dvote) %>%
 
 # Much better! Repo before class.
 
+# initial_split(), logistic_reg(), set_engine(), fit(), predict(), bind_cols(), metrics() and vfold_cv().
+
+
+  logistic_reg() %>% 
+  set_engine("glm") %>%
+  fit()
+  
+  
+
+
+ 
+
 ```
 
